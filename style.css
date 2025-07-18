@@ -30,6 +30,34 @@ nav{
     justify-content: space-between ;
     padding: 10px 0;
 }
+.product-li{
+    position: relative;
+}
+.dropdown-nav-items{
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: -10%;
+    padding: 5px 0px;
+    list-style: none;
+    background-color: white;
+    width: 100px;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
+    visibility: hidden;
+    /* transition: 0.5s; */
+
+}
+.product-li:hover .dropdown-nav-items{
+    visibility: visible;
+    top: 100%;
+    transition: 0.5s;
+    
+}
+.dropdown-nav-items li{
+    margin: 5px 0;
+}
 .search-parent{
     position: relative;
     color: #BABABA;
@@ -38,7 +66,7 @@ nav{
 .search-parent input{
     background-color: rgb(241, 241, 241);
     border-radius: 66px;
-    padding: 15px 30px;
+    padding: 15px 160px;
     border: none;
     max-width: 508.94px;
     /* max-height: 48px; */
@@ -146,7 +174,7 @@ ul li a{
    background-color: #F4F4F4;
 }
 .shoes-section{
-    padding: 10px 0;
+    padding: 50px 0;
 }
 .shoes-section .shoes{
     margin-right: 70px;
@@ -165,6 +193,7 @@ ul li a{
     padding: 25px;
     gap: 22;
     margin: 0 24px;
+    box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
 }
 .Shoe-card img{
     max-width: 336px;
@@ -184,7 +213,9 @@ ul li a{
 .contact-us-parent{
     background-color: rgb(255, 242, 241);
     text-align: center;
-    padding: 25px 15px;
+    padding: 35px 20px;
+    margin: 35px auto;
+    border-radius: 15px;
 }
 
 .contact-inp-btn-parent{
@@ -198,4 +229,6 @@ ul li a{
 }
 .contact-inp-btn-parent .panda-btn{
     border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
 }
