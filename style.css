@@ -58,6 +58,7 @@ nav{
 .dropdown-nav-items li{
     margin: 5px 0;
 }
+
 .search-parent{
     position: relative;
     color: #BABABA;
@@ -66,15 +67,16 @@ nav{
 .search-parent input{
     background-color: rgb(241, 241, 241);
     border-radius: 66px;
-    padding: 15px 160px;
+    padding: 13px 300px;
     border: none;
     max-width: 508.94px;
+    padding-left: 15px;
     /* max-height: 48px; */
 }
 .search-parent i{
     position: absolute;
-    top :17px;
-    right :20px;
+    top :13px;
+    right :15px;
 }
 /* nav-items */
 ul{
