@@ -18,7 +18,12 @@
      border: none;
      color: white;
      font-weight: 500;
+     cursor: pointer;
 }
+
+/* .panda-btn:hover{
+    background-color: #ffe4ec;
+} */
 .common-section-title{
     font-weight: 600px;
     font-size: 36px;
@@ -29,6 +34,9 @@ nav{
     display: flex;
     justify-content: space-between ;
     padding: 10px 0;
+}
+nav li:hover{
+    background-color: lightblue;
 }
 .product-li{
     position: relative;
